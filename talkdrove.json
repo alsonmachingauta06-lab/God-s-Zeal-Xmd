@@ -1,7 +1,7 @@
 {
-  "bot-name": "GODSZEAL XMD",
-  "description": "GODSZEAL XMD made for people on Earth",
-  "logo": "assets/bot_image.jpg",
+  "bot-name": "Alson XMD ",
+  "description": "Alson XMD made for WhatsApp ",
+  "logo": "assets/botimage.jpg",
   "keywords": ["bot"],
   "documentation-link": "https://gzpair.vercel.app",
   "owner-verification": "godwinhephzibah25@gmail.com",
@@ -18,7 +18,7 @@
     },
     "PREMIUM_USERS": {
       "description": "premium users",
-      "value": "2347049283499",
+      "value": "263786359833",
       "required": false
     }
   }
