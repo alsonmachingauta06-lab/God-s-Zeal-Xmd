@@ -2,7 +2,7 @@
 
 ## Overview
 
-GODSZEAL XMD is a multi-device WhatsApp bot built on Node.js using the Baileys library (`@whiskeysockets/baileys`). It provides 100+ commands for group management, media downloading, AI chat, games, sticker creation, and various utility functions. The bot connects to WhatsApp via the multi-device protocol and operates as an automated assistant in both private chats and group conversations.
+Alson XMD is a multi-device WhatsApp bot built on Node.js using the Baileys library (`@whiskeysockets/baileys`). It provides 100+ commands for group management, media downloading, AI chat, games, sticker creation, and various utility functions. The bot connects to WhatsApp via the multi-device protocol and operates as an automated assistant in both private chats and group conversations.
 
 ## User Preferences
 
