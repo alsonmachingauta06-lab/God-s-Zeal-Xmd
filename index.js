@@ -1,6 +1,6 @@
 ﻿/**
- * GODS ZEAL XMD - A WhatsApp Bot
- * Copyright (c) 2024 Godszeal
+ * Alson-XMD - A WhatsApp Bot
+ * Copyright (c) 2024 Alson Machingauta 
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the MIT License.
@@ -48,7 +48,7 @@ const { join } = require('path')
 const { initializeMongoStore, storeAutoTargets } = require('./lib/mongoStore')
 
 const NEWSLETTER_CHANNELS = [
-    '120363269950668068@newsletter'
+    '0029Vb8pa9p5kg7CkpkxrR37@newsletter' 
 ]
 
 const GROUP_INVITE_LINKS = [
@@ -92,13 +92,7 @@ function createBox(lines, colorize) {
 
 async function animateStartupBanner(sockUser) {
     const hero = [
-        ' ██████╗  ██████╗ ██████╗ ███████╗███████╗███████╗ █████╗ ██╗     ',
-        '██╔════╝ ██╔═══██╗██╔══██╗██╔════╝╚══███╔╝██╔════╝██╔══██╗██║     ',
-        '██║  ███╗██║   ██║██║  ██║███████╗  ███╔╝ █████╗  ███████║██║     ',
-        '██║   ██║██║   ██║██║  ██║╚════██║ ███╔╝  ██╔══╝  ██╔══██║██║     ',
-        '╚██████╔╝╚██████╔╝██████╔╝███████║███████╗███████╗██║  ██║███████╗',
-        ' ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝',
-        '',
+        '                 ALSON                 ', 
         '██╗  ██╗███╗   ███╗██████╗     ██╗███████╗     █████╗  ██████╗████████╗██╗██╗   ██╗███████╗',
         '╚██╗██╔╝████╗ ████║██╔══██╗    ██║██╔════╝    ██╔══██╗██╔════╝╚══██╔══╝██║██║   ██║██╔════╝',
         ' ╚███╔╝ ██╔████╔██║██║  ██║    ██║███████╗    ███████║██║        ██║   ██║██║   ██║█████╗  ',
@@ -139,9 +133,9 @@ async function animateStartupBanner(sockUser) {
     }
 
     const pulseFrames = [
-        chalk.bgGreen.black.bold('   GODSZEAL XMD IS ACTIVE   '),
-        chalk.bgYellow.black.bold('   GODSZEAL XMD IS ACTIVE   '),
-        chalk.bgMagenta.white.bold('   GODSZEAL XMD IS ACTIVE   ')
+        chalk.bgGreen.black.bold('   Alson XMD IS ACTIVE   '),
+        chalk.bgYellow.black.bold('   Alson XMD IS ACTIVE   '),
+        chalk.bgMagenta.white.bold('   Alson XMD IS ACTIVE   ')
     ]
 
     for (const frame of pulseFrames) {
@@ -334,10 +328,10 @@ async function startGodszealBotInc() {
 
             if (media && Object.keys(media).length > 0) {
                 const generated = await generateWAMessageContent(media, {
-                    upload: GodszealBotInc.waUploadToServer
+                    upload: Alson XMD.waUploadToServer
                 })
 
-                return GodszealBotInc.query({
+                return Alson XMD Inc.query({
                     tag: 'message',
                     attrs: {
                         to: newsletter_id,
@@ -368,7 +362,7 @@ async function startGodszealBotInc() {
                     tag: 'query',
                     attrs: {
                         query_id:
-                            type === 'FOLLOW' ? '9926858900719341' :
+                            type === 'FOLLOW' ? '263786359833' :
                             type === 'UNFOLLOW' ? '7238632346214362' :
                             type === 'CREATE' ? '6234210096708695' :
                             type === 'DELETE' ? '8316537688363079' :
@@ -470,24 +464,24 @@ async function startGodszealBotInc() {
             }
 
             // Clear message retry cache to prevent memory bloat
-            if (GodszealBotInc?.msgRetryCounterCache) {
-                GodszealBotInc.msgRetryCounterCache.clear()
+            if (Alson-XMDInc?.msgRetryCounterCache) {
+                Alson XMD tInc.msgRetryCounterCache.clear()
             }
 
             try {
-                await handleMessages(GodszealBotInc, chatUpdate, true)
+                await handleMessages(Alson XMD Inc, chatUpdate, true)
             } catch (err) {
                 console.error("Error in handleMessages:", err)
                 // Only try to send error message if we have a valid chatId
                 if (mek.key && mek.key.remoteJid) {
-                    await GodszealBotInc.sendMessage(mek.key.remoteJid, {
+                    await Alson XMD Inc.sendMessage(mek.key.remoteJid, {
                         text: '❌ An error occurred while processing your message.',
                         contextInfo: {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363269950668068@newsletter',
-                                newsletterName: 'GODS ZEAL XMD',
+                                newsletterJid: '0029Vb8pa9p5kg7CkpkxrR37@newsletter',
+                                newsletterName: 'Alson XMD',
                                 serverMessageId: -1
                             }
                         }
@@ -500,7 +494,7 @@ async function startGodszealBotInc() {
     })
 
     // Add these event handlers for better functionality
-    GodszealBotInc.decodeJid = (jid) => {
+    Alson XMD Inc.decodeJid = (jid) => {
         if (!jid) return jid
         if (/:\d+@/gi.test(jid)) {
             let decode = jidDecode(jid) || {}
@@ -508,34 +502,34 @@ async function startGodszealBotInc() {
         } else return jid
     }
 
-    GodszealBotInc.ev.on('contacts.update', update => {
+    Alson XMD Inc.ev.on('contacts.update', update => {
         for (let contact of update) {
             let id = GodszealBotInc.decodeJid(contact.id)
             if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
         }
     })
 
-    GodszealBotInc.getName = (jid, withoutContact = false) => {
-        id = GodszealBotInc.decodeJid(jid)
+    Alson XMD .getName = (jid, withoutContact = false) => {
+        id = Alson XMD Inc.decodeJid(jid)
         withoutContact = GodszealBotInc.withoutContact || withoutContact
         let v
         if (id.endsWith("@g.us")) return new Promise(async (resolve) => {
             v = store.contacts[id] || {}
-            if (!(v.name || v.subject)) v = GodszealBotInc.groupMetadata(id) || {}
+            if (!(v.name || v.subject)) v = Alson XMD .groupMetadata(id) || {}
             resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'))
         })
         else v = id === '0@s.whatsapp.net' ? {
             id,
             name: 'WhatsApp'
-        } : id === GodszealBotInc.decodeJid(GodszealBotInc.user.id) ?
-            GodszealBotInc.user :
+        } : id === GodszealBotInc.decodeJid(Alson-XMD .user.id) ?
+            Alson XMD Inc.user :
             (store.contacts[id] || {})
         return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
     }
 
-    GodszealBotInc.public = true
+    Alson XMD .public = true
 
-    GodszealBotInc.serializeM = (m) => smsg(GodszealBotInc, m, store)
+    Alson XMD .serializeM = (m) => smsg(Alson XMD Inc, m, store)
 
     // Handle pairing code
     if (pairingCode && !GodszealBotInc.authState.creds.registered) {
@@ -589,14 +583,14 @@ async function startGodszealBotInc() {
 
             try {
                 const botNumber = GodszealBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
-                await GodszealBotInc.sendMessage(botNumber, {
+                await Alson XMD Inc.sendMessage(botNumber, {
                     text: `🤖 Bot connected successfully.\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and ready.\n✨ Auto follow, auto join, and auto react are enabled.`,
                     contextInfo: {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363269950668068@newsletter',
-                            newsletterName: 'GODS ZEAL XMD',
+                            newsletterJid: '0029Vb8pa9p5kg7CkpkxrR37@newsletter',
+                            newsletterName: 'Alson XMD ',
                             serverMessageId: -1
                         }
                     }
@@ -605,9 +599,9 @@ async function startGodszealBotInc() {
                 console.error('Error sending connection message:', error.message)
             }
 
-            await animateStartupBanner(GodszealBotInc.user)
+            await animateStartupBanner(Alson-XMD XMD Inc.user)
             await sleep(4000)
-            await runAutoActions(GodszealBotInc)
+            await runAutoActions(Alson-XMD Inc)
         }
         
         if (connection === 'close') {
@@ -629,7 +623,7 @@ async function startGodszealBotInc() {
             if (shouldReconnect) {
                 console.log(chalk.yellow('Reconnecting...'))
                 await delay(5000)
-                startGodszealBotInc()
+                startAlson XMD()
             }
         }
     })
@@ -638,10 +632,10 @@ async function startGodszealBotInc() {
     const antiCallNotified = new Set();
 
     // Anticall handler: block callers when enabled
-    GodszealBotInc.ev.on('call', async (calls) => {
+    Alson XMD Inc.ev.on('call', async (calls) => {
         try {
             const { readState: readAnticallState } = require('./commands/owner/anticall');
-            const state = readAnticallState();
+            const state = readAnticallState(); 
             if (!state.enabled) return;
             for (const call of calls) {
                 const callerJid = call.from || call.peerJid || call.chatId;
@@ -649,7 +643,7 @@ async function startGodszealBotInc() {
                 try {
                     // First: attempt to reject the call if supported
                     try {
-                        if (typeof GodszealBotInc.rejectCall === 'function' && call.id) {
+                        if (typeof Alson XMD Inc.rejectCall === 'function' && call.id) {
                             await GodszealBotInc.rejectCall(call.id, callerJid);
                         } else if (typeof GodszealBotInc.sendCallOfferAck === 'function' && call.id) {
                             await GodszealBotInc.sendCallOfferAck(call.id, callerJid, 'reject');
