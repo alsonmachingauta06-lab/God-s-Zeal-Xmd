@@ -4,8 +4,8 @@
 
 <!-- HEADER WITH TYPING SVG AND BOT IMAGE -->
 <div align="center">
-  <a href="https://git.io/botimage.jpg"> 
-    <img src="https://readme-botimage.jpg.demolab.com?font=Orbitron&size=56&pause=500&color=33FF00&center=true&width=900&height=120&lines=Alson+𝐗𝐌𝐃;Multi-Device+WhatsApp+Bot;All+Deployment+Errors+Fixed" alt="Typing SVG"/>
+  <a href="https://github.com/assets/botimage.jpg"> 
+    <img src="https://readme-botimage.jpg.demolab.com?font=Orbitron&size=56&pause=500&color=33FF00&center=true&width=900&height=120&lines=Alson+𝐗𝐌𝐃;Multi-Device+WhatsApp+Bot;All+Deployment+Errors+Fixed" alt="botimage.jpg"/>
   </a>
   <br/><br/>
   <div style="display:inline-block;padding:12px;border-radius:50%;box-shadow:0 8px 32px 0 #33333380;background:linear-gradient(135deg,#33FF00 45%,#00BFFF 100%);">
