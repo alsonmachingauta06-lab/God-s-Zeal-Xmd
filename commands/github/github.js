@@ -3,14 +3,14 @@ const fetch = require('node-fetch');
 
 async function githubCommand(sock, chatId, message) {
   try {
-    const res = await fetch('https://api.github.com/repos/AiOfLautech/God-s-Zeal-Xmd');
+    const res = await fetch('https://api.github.com/repos/alsonmachingauta06-lab/Alson bot');
     if (!res.ok) throw new Error('Error fetching repository data');
     const json = await res.json();
 
     const zipUrl = `https://codeload.github.com/${json.full_name}/zip/refs/heads/${json.default_branch || 'main'}`;
 
     const caption = [
-      `*乂  GOD'S ZEAL XMD  乂*`,
+      `*乂  Alson XMD 乂*`,
       '',
       `✩ Repository: ${json.full_name}`,
       `✩ Stars: ${json.stargazers_count}`,
