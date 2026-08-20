@@ -1,15 +1,15 @@
-# 𝐆𝐎𝐃𝐒𝐙𝐄𝐀𝐋 𝐗𝐌𝐃
+# Alson-𝐗𝐌𝐃
 # FIX ALL ISSUES, DON'T MAKE USE OF SESSION ID, JUST DOWNLOAD THE ZIP FILE AND UPLOAD TO TERMINAL THEN RUN IT WILL REQUEST FOR YOUR PHONE NUMBER 🙂 🙂
 
 
 <!-- HEADER WITH TYPING SVG AND BOT IMAGE -->
 <div align="center">
-  <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=56&pause=500&color=33FF00&center=true&width=900&height=120&lines=𝐆𝐎𝐃𝐒𝐙𝐄𝐀𝐋+𝐗𝐌𝐃;Multi-Device+WhatsApp+Bot;All+Deployment+Errors+Fixed" alt="Typing SVG"/>
+  <a href="https://git.io/botimage.jpg"> 
+    <img src="https://readme-botimage.jpg.demolab.com?font=Orbitron&size=56&pause=500&color=33FF00&center=true&width=900&height=120&lines=Alson+𝐗𝐌𝐃;Multi-Device+WhatsApp+Bot;All+Deployment+Errors+Fixed" alt="Typing SVG"/>
   </a>
   <br/><br/>
   <div style="display:inline-block;padding:12px;border-radius:50%;box-shadow:0 8px 32px 0 #33333380;background:linear-gradient(135deg,#33FF00 45%,#00BFFF 100%);">
-    <img src="https://raw.githubusercontent.com/AiOfLautech/God-s-Zeal-Xmd/main/assets/bot_image.jpg" alt="𝐆𝐎𝐃𝐒𝐙𝐄𝐀𝐋 𝐗𝐌𝐃" height="220" style="border-radius:50%;border:5px solid #00BFFF;" />
+    <img src="https://raw.githubusercontent.com/alsonmachingauta06-lab/Alson bot/main/assets/botimage.jpg" alt="Alson 𝐗𝐌𝐃" height="220" style="border-radius:50%;border:5px solid #00BFFF;" />
   </div>
 </div>
 
@@ -18,11 +18,11 @@
 ## 📊 GitHub Repo Stats
 
 <div align="center">
-  <img src="https://img.shields.io/github/stars/AiOfLautech/God-s-Zeal-Xmd?style=for-the-badge&color=yellow&label=Stars" />
-  <img src="https://img.shields.io/github/forks/AiOfLautech/God-s-Zeal-Xmd?style=for-the-badge&color=blue&label=Forks" />
-  <img src="https://img.shields.io/github/last-commit/AiOfLautech/God-s-Zeal-Xmd?style=for-the-badge&color=red&label=Last%20Update" />
-  <img src="https://komarev.com/ghpvc/?username=AiOfLautech&color=brightgreen&style=for-the-badge&label=Repo%20Views" />
-  <img src="https://img.shields.io/github/downloads/AiOfLautech/God-s-Zeal-Xmd/HEAD.zip?style=for-the-badge&color=orange&label=ZIP%20Downloads" />
+  <img src="https://img.shields.io/github/stars/alsonmachingauta06-lab/Alson bot?style=for-the-badge&color=yellow&label=Stars" />
+  <img src="https://img.shields.io/github/forks/alsonmachingauta06-lab/Alson bot?style=for-the-badge&color=blue&label=Forks" />
+  <img src="https://img.shields.io/github/last-commit/alsonmachingauta06-lab/Alson bot?style=for-the-badge&color=red&label=Last%20Update" />
+  <img src="https://komarev.com/ghpvc/?username=alsonmachingauta06-lab &color=brightgreen&style=for-the-badge&label=Repo%20Views" />
+  <img src="https://img.shields.io/github/downloads/alsonmachingauta06-lab/Alson bot/HEAD.zip?style=for-the-badge&color=orange&label=ZIP%20Downloads" />
 </div>
 
 ---
@@ -32,7 +32,7 @@
 <details align="center">
   <summary><strong>Step 1: Fork Repository</strong></summary>
   <p align="center">
-    <a href="https://github.com/AiOfLautech/God-s-Zeal-Xmd/fork">
+    <a href="https://github.com/alsonmachingauta06-lab/Alson bot/fork">
       <img src="https://img.shields.io/badge/-FORK%20REPO-00ccff?style=for-the-badge&logo=github&logoColor=white&labelColor=black" height="40" alt="Fork Badge"/>
     </a>
   </p>
@@ -41,11 +41,11 @@
 <details align="center">
   <summary><strong>Step 2: Download & Host</strong></summary>
   <p align="center">
-    <a href="https://github.com/AiOfLautech/God-s-Zeal-Xmd/archive/refs/heads/main.zip">
+    <a href="https://github.com/alsonmachingauta06-lab/Alson bot/archive/refs/heads/main.zip">
       <img src="https://img.shields.io/badge/-DOWNLOAD%20ZIP-00ccff?style=for-the-badge&logo=github&logoColor=white&labelColor=black" height="40" alt="Download ZIP"/>
     </a>
     <br/>
-    <img src="https://img.shields.io/github/downloads/AiOfLautech/God-s-Zeal-Xmd/HEAD.zip?style=flat-square&label=Zip%20Downloads" alt="ZIP Downloads" />
+    <img src="https://img.shields.io/github/downloads/alsonmachingauta06-lab/Alson bot/HEAD.zip?style=flat-square&label=Zip%20Downloads" alt="ZIP Downloads" />
   </p>
   <ol>
     <li>Download ZIP archive of latest code.</li>
@@ -59,9 +59,6 @@
   <p align="center">
     <a href="https://bot-hosting.net/?aff=1271743046865915927">
       <img src="https://img.shields.io/badge/-BOTHOSTING%20PANEL-D6B7D6?style=for-the-badge&logo=serverless&logoColor=black&labelColor=white" height="40" alt="Bot Hosting Panel"/>
-    </a>
-    <a href="">
-      <img src="https://img.shields.io/badge/-DEPLOY%20TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=black" height="40" alt="YouTube Tutorial"/>
     </a>
   </p>
 </details>
@@ -77,7 +74,6 @@
     </a>
   </p>
   <ol>
-    <li>Visit <a href="https://gzpair.vercel.app"><strong>https://gzpair.vercel.app</strong></a> to get your session ID.</li>
     <li>Fork the repository to your GitHub account.</li>
     <li>Rename <code>.env.example</code> to <code>.env</code> in your local copy.</li>
     <li>Paste your session ID into the designated placeholder in the <code>.env</code> file.</li>
@@ -104,10 +100,7 @@
 ## 🔗 Connect With Us
 
 <div align="center">
-  <a href="https://t.me/aitoolshub01">
-    <img src="https://img.shields.io/badge/-TELEGRAM%20CHANNEL-0088cc?style=for-the-badge&logo=telegram&logoColor=white" height="35" alt="Telegram"/>
-  </a>
-  <a href="https://whatsapp.com/channel/0029Va90zAnIHO8Msp3A">
+  <a href="https://whatsapp.com/channel/0029Vb8pa9p5kg7CkpkxrR37">
     <img src="https://img.shields.io/badge/-WHATSAPP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="35" alt="WhatsApp"/>
   </a>
 </div>
@@ -118,8 +111,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/AiOfLautech/God-s-Zeal-Xmd.git
-cd God-s-Zeal-Xmd
+git clone https://github.com/alsonmachingauta06-lab/Alson bot.git
+cd Alson bot
 
 # Install dependencies
 npm install
@@ -134,9 +127,9 @@ node index.js
 
 ## 📅 Project Timeline
 <div align="center">
-  <img src="https://img.shields.io/github/commit-activity/m/AiOfLautech/God-s-Zeal-Xmd?style=for-the-badge&color=purple" />
-  <img src="https://img.shields.io/github/issues-pr/AiOfLautech/God-s-Zeal-Xmd?style=for-the-badge&color=teal" />
-  <img src="https://img.shields.io/github/issues/AiOfLautech/God-s-Zeal-Xmd?style=for-the-badge&color=pink" />
+  <img src="https://img.shields.io/github/commit-activity/m/alsonmachingauta06-lab/Alson bot?style=for-the-badge&color=purple" />
+  <img src="https://img.shields.io/github/issues-pr/alsonmachingauta06-lab/Alson bot?style=for-the-badge&color=teal" />
+  <img src="https://img.shields.io/github/issues/alsonmachingauta06-lab/Alson bot?style=for-the-badge&color=pink" />
 </div>
 
 ---
@@ -155,8 +148,8 @@ Always comply with WhatsApp's policies and local laws.
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/AiOfLautech">
-        <img src="https://img.shields.io/badge/Godszeal-00ffff?style=for-the-badge&logo=github&logoColor=black" alt="godszeal">
+      <a href="https://github.com/alsonmachingauta06-lab" >
+        <img src="https://img.shields.io/badge/Alson bot-00ffff?style=for-the-badge&logo=github&logoColor=black" alt="Alson XMD ">
       </a>
     </td>
     <td align="center">
@@ -168,7 +161,7 @@ Always comply with WhatsApp's policies and local laws.
 </table>
 
 <p align="center"> 
-  <a href="https://github.com/AiOfLautech/God-s-Zeal-Xmd">
+  <a href="https://github.com/alsonmachingauta06-lab/Alson bot">
     <img src="https://img.shields.io/badge/⭐_STAR_THIS_REPO_⭐-yellow?style=for-the-badge&logo=github" alt="Star Repo">
   </a>
 </p>
@@ -177,12 +170,12 @@ Always comply with WhatsApp's policies and local laws.
 
 ### 📜 License
 
-MIT © Godszeal
+MIT © Alson Machingauta 
 
 ---
 
 <!-- Decorative Divider -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff66&height=90&section=footer" style="margin-top:-30px;" />
-  <br/><sub>Styled by <a href="https://github.com/AiOfLautech">AiOfLautech</a> | Powered by ☕ & ❤️ | Last Update: 2026-02-18 04:09:59</sub>
+  <br/><sub>Styled by <a href="https://github.com/alsonmachingauta06-lab">alsonmachingauta06-lab</a> | Powered by ☕ & ❤️ | Last Update: 2026-02-18 04:09:59</sub>
 </div>
